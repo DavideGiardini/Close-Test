@@ -3,7 +3,7 @@ In my [sentiment analysis project](https://github.com/DavideGiardini/Twitter-Sen
 
 ## Granger Causality Test
 
-My first idea was to do so using [Granger's Causality Test](https://en.wikipedia.org/wiki/Granger_causality). The Granger causality test is a statistical hypothesis test, expressed by Clive Granger in 1969 and later expanded by Clive Granger, for determining whether one time series in useful in forecasting another. 
+My first idea was to do so using [Granger's Causality Test](https://en.wikipedia.org/wiki/Granger_causality). The Granger causality test is a statistical hypothesis test, expressed by Clive Granger in 1969 and later expanded, for determining whether one time series in useful in forecasting another. 
 A time serie X is said to Granger-cause a second time serie Y if, conditioning by the past value of X, the MSQ of the forecast $y+t$ is significantly less than the case in which the information of the past value of X is ignored. Mathematically:
 <p align="center">
 $E[y_t-E(y_t|\cdot)|y_{t-1},y_{t-2},...;x_{t-1},x_{t-2},...]^2\leq E[y_t-E(y_t|\cdot)|y_{t-1},y_{t-2},...]^2$
